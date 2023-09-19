@@ -1,13 +1,17 @@
 ---
+
 layout: post
 title: "Linux系统迁移"
 date: 2023-09-19
 author: "H4kur31"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/bg-touhou-7.jpg"
 tags:
-  - Linux
+
+- Linux
+
 ---
-此前已在电脑上安装了双系统，最近又加装了一块固态硬盘，因此自然想着把本来在同一块硬盘上的系统分开分别放在两块硬盘上。对 Windows 进行迁移并不容易，而 Linux 下“一切皆文件”，自然就会容易很多。
+
+此前已在电脑上安装了双系统，最近又加装了一块固态硬盘，因此自然想着把本来在同一块硬盘上的系统分开分别放在两块硬盘上。对 Windows 进行迁移并不容易，而 Linux 下“一切皆文件”，自然就会简单很多。
 
 ### 0x01 分区
 
