@@ -1,11 +1,11 @@
 # Site settings
-title: ArcaneLuna's Blog
-SEOTitle: ArcaneLuna的博客 | ArcaneLuna's Blog
+title: H4kur31's Blog
+SEOTitle: H4kur31的博客 | H4kur31's Blog
 header-img: img/home-bg.jpg
-email: ArcaneLuna@proton.me
-description: "这里是 ArcaneLuna 的个人博客 | test"
-keyword: "ArcaneLuna, 博客, 个人网站, 计算机"
-url: "https://arcaneluna.github.io" # your host, for absolute URL
+email: H4kur31@proton.me
+description: "这里是 H4kur31 的个人博客 | test"
+keyword: "H4kur31, 博客, 个人网站, 计算机"
+url: "https://H4kur31.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -15,7 +15,7 @@ future: true
 RSS: false
 #weibo_username: huxpro
 #zhihu_username: huxpro
-github_username: ArcaneLuna
+github_username: H4kur31
 #twitter_username: huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
@@ -75,7 +75,7 @@ kramdown:
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "EL PSY KONGROO"
-sidebar-avatar: /img/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags

@@ -1,14 +1,14 @@
 {
-    "name": "ArcaneLuna-blog",
-    "title": "ArcaneLuna's Blog",
-    "author": "ArcaneLuna <ArcaneLuna@proton.me>",
+    "name": "H4kur31-blog",
+    "title": "H4kur31's Blog",
+    "author": "H4kur31 <H4kur31@proton.me>",
     "version": "1.8.2",
-    "homepage": "http://ArcaneLuna.github.io",
+    "homepage": "http://H4kur31.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ArcaneLuna/ArcaneLuna.github.io"
+        "url": "https://github.com/H4kur31/H4kur31.github.io"
     },
-    "bugs": "https://github.com/ArcaneLuna/ArcaneLuna.github.io/issues",
+    "bugs": "https://github.com/H4kur31/H4kur31.github.io/issues",
     "devDependencies": {
         "grunt": ">=1.3.0",
         "grunt-banner": "~0.2.3",
