@@ -154,7 +154,49 @@ P0 的比例远远低于论文，而 P0 是简单的3个全局变量交换内容
 
 - 矩阵乘法：使用朴素的$n^3$算法，计算两个 $1000\times1000$ 的整数矩阵乘积，循环执行50次，`C`所用总时间为`92.80s`，平均时间`1.856s`，`Python`在不使用`numpy`的情况下实在是太慢了，我只能设置执行1次，所用时间为`65.394213s`，`C`的速度是`Python`的<mark>35倍</mark>
 
-- Ackermann函数：由于`A(4, 1)`的递归深度远大于`Python2`的默认递归深度（1000），这里采取计算`A(3,6)`，循环执行1000次，C所用总时间为`0.35s`，平均时间`0.00035s`，Python所用总时间为`11.117494s`，平均时间`0.011117s`，`C`的速度是`Python`的<mark>31倍</mark>
+- Ackermann函数：由于`A(4, 1)`的递归深度远大于`Python2`的默认~~递归深度~~（1000），这里采取计算`A(3,6)`，循环执行1000次，C所用总时间为`0.35s`，平均时间`0.00035s`，Python所用总时间为`11.117494s`，平均时间`0.011117s`，`C`的速度是`Python`的<mark>31倍</mark>
+  
+  - 被指出这里的递归深度实际上应该是堆栈大小，即实际递归深度达到不了设置的堆栈大小，当然`sys.setrecursionlimit()`这个函数的称呼很具有迷惑性。参考：[Python max recursion, question about sys.setrecursionlimit() - Stack Overflow](https://stackoverflow.com/questions/7081448/python-max-recursion-question-about-sys-setrecursionlimit)
+  
+  - 另外，计算`A(4,1)`时，python 2.7会在执行过程中无报错的情况下退出，使用 python 3.11 则不会。
+    
+    - 应该是堆栈溢出和编译器优化的问题，但我并不想继续探究……
+    
+    - [Ackermann Function (4, 1) in C Not Calculating - Ackermann with Caching - Stack Overflow](https://stackoverflow.com/questions/59399006/ackermann-function-4-1-in-c-not-calculating-ackermann-with-caching)
+    
+    - [recursion - Why does python stop computing without throwing an error while calculating Ackermann? - Stack Overflow](https://stackoverflow.com/questions/60798008/why-does-python-stop-computing-without-throwing-an-error-while-calculating-acker)
+
+```python
+import time
+import sys
+
+sys.setrecursionlimit(100000)
+
+# NUM_ITERATIONS = 1000
+
+def ackermann(m, n):
+    if m == 0:
+        return n + 1
+    elif m > 0 and n == 0:
+        return ackermann(m - 1, 1)
+    elif m > 0 and n > 0:
+        return ackermann(m - 1, ackermann(m, n - 1))
+    return 0  # invalid
+
+if __name__ == "__main__":
+    m = 4
+    n = 1
+
+    start_time = time.time()
+    result = ackermann(m, n)
+    end_time = time.time()
+
+    total_time = end_time - start_time
+    # average_time = total_time / NUM_ITERATIONS
+    print "Ackermann(%d, %d) = %d" %(m, n, result)
+    print "total time: %f" %(total_time)
+    # print "Average ackermann time over %d iterations: %f seconds" % (NUM_ITERATIONS, average_time)
+```
 
 ### 0x03 性能评测
 
@@ -311,7 +353,11 @@ gcc -O3 whet.c -o whet3 -lm
 | $10^8$ | O2       | 542      | 18450.2 |
 | $10^8$ | O3       | 516      | 19379.8 |
 
-可以观察到随着循环增多，数据更加稳定和精确，O0 到 O2 的优化明显，而 O2 到 O3 的优化并不明显。这可能是因为 O2 已经解决了程序的性能瓶颈，比如代码局部性和寄存器优化，而 O3 主要是复杂的循环优化和全局优化，对于 Whetstone没有显著提升。
+可以观察到随着循环增多，数据更加稳定和精确，O0 到 O2 的优化明显，而 O2 到 O3 的优化并不明显。~~这可能是因为 O2 已经解决了程序的性能瓶颈，比如代码局部性和寄存器优化，而 O3 主要是复杂的循环优化和全局优化，对于 Whetstone没有显著提升。~~
+
+- 被指出这里 O0 到 O2 的提升过于明显，和程序中的宏有关系(?)，当然我是没太听懂
+  
+  - 然后我把`#define DSIN sin`等几个三角函数的宏定义去掉，直接调用`sin`发现确实是有一定的影响。即开启宏以后，在`O2`阶段就会把`sin`内建到程序中（汇编中不再出现`call sin`），而正常这应当是`O3`应当做的事情，所以可以在`O2`时加入`fno-builtin`，或者直接把宏全部去掉
 
 ###### 2.3 进一步改进whetstone程序性能（例如新的编译选项），用实验结果回答。
 
