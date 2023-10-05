@@ -47,8 +47,6 @@ TPC-C实现了订单输入工作负载，具有更复杂的实时和批处理事
 
 Dhrystone和Coremark已经成为过去三十年来微控制器基准测试套件的事实标准，但这些基准测试现在不再反映现代嵌入式系统的需求。Embench™是专门设计用来满足现代连接的嵌入式系统的要求的。这些基准测试是相关的、可移植的，并且实施得很好。
 
-
-
 ### 0x02 阅读文献
 
 阅读文献（Reinhold P.Weicker, An Overview of Common Benchmarks, IEEE Computer, December 1990.）并回答下面的问题
@@ -122,11 +120,11 @@ P0 的比例远远低于论文，而 P0 是简单的3个全局变量交换内容
 
 - 编程语言：论文中提到语言特性（调用顺序、指针语义和字符串语义）会影响执行时间
   
-  - 调用顺序：（串行|并行）Python由于存在全局解释所（GIL）无法在单一进程中利用多线程提高CPU密集型指令的执行效率，而在C++中则不然
+  - 调用顺序：（串行\|并行）Python由于存在全局解释所（GIL）无法在单一进程中利用多线程提高CPU密集型指令的执行效率，而在C++中则不然
   
-  - 指针语义：（值传递|引用传递）引用传递更加高效，减少了复制开销
+  - 指针语义：（值传递\|引用传递）引用传递更加高效，减少了复制开销
   
-  - 字符串语义：（可变字符串|不可变字符串）部分语言如JavaScript中每次对字符串修改都会创建一个新的字符串对象，效率低下
+  - 字符串语义：（可变字符串\|不可变字符串）部分语言如JavaScript中每次对字符串修改都会创建一个新的字符串对象，效率低下
   
   - 其他：编译性语言（如：C）快于解释性语言（如：Python），因为前者会在编译时优化成机器代码，因此性能更好
 
@@ -157,8 +155,6 @@ P0 的比例远远低于论文，而 P0 是简单的3个全局变量交换内容
 - 矩阵乘法：使用朴素的$n^3$算法，计算两个 $1000\times1000$ 的整数矩阵乘积，循环执行50次，`C`所用总时间为`92.80s`，平均时间`1.856s`，`Python`在不使用`numpy`的情况下实在是太慢了，我只能设置执行1次，所用时间为`65.394213s`，`C`的速度是`Python`的<mark>35倍</mark>
 
 - Ackermann函数：由于`A(4, 1)`的递归深度远大于`Python2`的默认递归深度（1000），这里采取计算`A(3,6)`，循环执行1000次，C所用总时间为`0.35s`，平均时间`0.00035s`，Python所用总时间为`11.117494s`，平均时间`0.011117s`，`C`的速度是`Python`的<mark>31倍</mark>
-
----
 
 ### 0x03 性能评测
 
@@ -369,7 +365,7 @@ Chrome不愧是最快浏览器，根据 firefox [官方报道](https://blog.nigh
 
 - [TPC-Homepage](https://www.tpc.org/)
 
-- [性能工具 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows-hardware/test/weg/performance-tools)
+- [性能工具 Microsoft Learn](https://learn.microsoft.com/zh-cn/windows-hardware/test/weg/performance-tools)
 
 - [PassMark PerformanceTest - PC benchmark software](https://www.passmark.com/products/performancetest/index.php)
 
@@ -403,7 +399,7 @@ Chrome不愧是最快浏览器，根据 firefox [官方报道](https://blog.nigh
 
 - [Whetstone Benchmark Detailed Results - Roy Longbottom's PC Benchmark Collection](http://www.roylongbottom.org.uk/whetstone%20results.htm)
 
-- [Whetstone | benchmark (kreier.github.io)](https://kreier.github.io/benchmark/whetstone/)
+- [Whetstone benchmark (kreier.github.io)](https://kreier.github.io/benchmark/whetstone/)
 
 **GCC Optimize**
 

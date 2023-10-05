@@ -64,9 +64,18 @@
     <![endif]-->
 
     <!-- ga & ba script hoook -->
-    <script></script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
 
     <!-- Google AdSense -->
-    <script data-ad-client="ca-pub-6487568398225121" async
+    <!-- script data-ad-client="ca-pub-6487568398225121" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    -->
 </head>
