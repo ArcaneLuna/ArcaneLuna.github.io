@@ -438,7 +438,7 @@ void writeBack() {
 }
 ```
 
-## 0x03 参考
+## 0x04 参考
 
 - [ELFIO - ELF reader and producer implemented as a header only C++ library (github.com)](https://github.com/serge1/ELFIO)
 - 清华：[RISC-V 指令概况 - 计算机组成原理（2021年） (tsinghua.edu.cn)](https://lab.cs.tsinghua.edu.cn/cod-lab-docs/labs/4-riscv-inst/)
