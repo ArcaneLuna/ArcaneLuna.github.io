@@ -120,7 +120,7 @@ void Simulator::load(const char* origin, uint64_t length, uint64_t address) {
 
 多周期处理器在 decode 后等待，而流水线处理器在每轮 fetch 结束后等待用户输入。
 
-<img title="" src="file:///img/2023-10-31-Computer-Architecture-lab-2/3.png" alt="" width="496">
+![](/img/2023-10-31-Computer-Architecture-lab-2/3.png)
 
 对阿克曼函数的测试结果：
 
