@@ -93,3 +93,7 @@ friends:
   [
 #    { title: "name", href: "http://example.me/" },
   ]
+
+# Generate sitemap
+plugins:
+  - jekyll-sitemap

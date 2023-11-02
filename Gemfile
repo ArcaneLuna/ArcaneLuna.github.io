@@ -7,3 +7,4 @@ gem "rake"
 gem "webrick", "~> 1.7"
 gem 'tzinfo'
 gem 'tzinfo-data'
+gem "jekyll-sitemap", "~> 1.4"
