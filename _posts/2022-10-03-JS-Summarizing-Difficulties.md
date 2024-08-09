@@ -4,7 +4,7 @@ layout: post
 title: 【JS】知识点归纳
 subtitle: 等待补充
 date: 2022-10-03
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

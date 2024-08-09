@@ -2,7 +2,7 @@
 layout: post
 title: 【Python】爬虫笔记-开源代理池haipproxy使用
 date: 2022-11-05
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

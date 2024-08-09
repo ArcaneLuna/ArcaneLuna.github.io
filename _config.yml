@@ -1,11 +1,11 @@
 # Site settings
-title: qtunneling Blog
-SEOTitle: qtunneling的博客 | qtunneling Blog
+title: 3thernet Blog
+SEOTitle: 3thernet的博客 | 3thernet Blog
 header-img: img/home-bg.jpg
-email: qtunneling@proton.me
-description: "这里是 qtunneling 的博客，分享个人编程学习经历 | 仿生巫女会退治电子妖精吗"
-keyword: "qtunneling, qtunneling的博客, 个人网站, 计算机, Web, CTF, Python, c++, JavaScript, 网络安全, 体系结构, 东方Project, Touhou"
-url: "https://qtunneling.com" # your host, for absolute URL
+email: 3thernet@proton.me
+description: "这里是 3thernet 的博客，分享个人编程学习经历"
+keyword: "3thernet, 3thernet的博客, 个人网站, 计算机, Web, CTF, Python, c++, JavaScript, 网络安全, 体系结构, 东方Project, Touhou"
+url: "https://3thernet.com" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -15,7 +15,7 @@ future: true
 RSS: false
 #weibo_username: huxpro
 #zhihu_username: huxpro
-github_username: qtunneling
+github_username: 3thernet
 #twitter_username: huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
@@ -74,7 +74,7 @@ kramdown:
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Reimu.exe: Spellcards and Code Hacks."
+sidebar-about-description: "Every door that he found in the house was painted green."
 sidebar-avatar: /img/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags

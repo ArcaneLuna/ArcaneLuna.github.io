@@ -3,7 +3,7 @@ layout: post
 title: "GeekGame 3rd Writeup"
 subtitle: "第三届北京大学信息安全综合能力竞赛"
 date: 2023-10-22
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 
@@ -13,7 +13,7 @@ tags:
 
 > *第一次参加 CTF 比赛，很有趣*
 > 
-> *by qtunneling*
+> *by 3thernet*
 
 ## 一眼盯帧
 

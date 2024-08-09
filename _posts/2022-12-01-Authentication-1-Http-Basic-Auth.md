@@ -2,7 +2,7 @@
 layout: post
 title: 【认证机制】1-HTTP Basic Auth
 date: 2022-12-01
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

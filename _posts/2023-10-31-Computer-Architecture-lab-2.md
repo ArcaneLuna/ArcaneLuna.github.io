@@ -3,7 +3,7 @@ layout: post
 title: "计算机体系结构实习Lab2"
 subtitle: "RISC-V结构&性能模拟器"
 date: 2023-10-31
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-6.jpg"
 tags: 
 

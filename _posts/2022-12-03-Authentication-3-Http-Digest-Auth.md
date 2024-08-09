@@ -3,7 +3,7 @@
 layout: post
 title: 【认证机制】3-Http Digest Auth
 date: 2022-12-03
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

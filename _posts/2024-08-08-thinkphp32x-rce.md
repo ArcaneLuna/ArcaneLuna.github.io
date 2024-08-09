@@ -3,7 +3,7 @@ layout: post
 title: "【网络安全】ThinkPHP 3.2.X RCE学习"
 subtitle: "骑士CMS文件包含漏洞"
 date: 2024-08-08
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-1.jpg"
 tags: []
 ---

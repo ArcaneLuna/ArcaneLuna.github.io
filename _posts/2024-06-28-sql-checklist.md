@@ -3,7 +3,7 @@ layout: post
 title: "SQL checklist"
 subtitle: "CRUD自查"
 date: 2024-06-28
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-1.jpg"
 tags: []
 ---

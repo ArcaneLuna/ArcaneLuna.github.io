@@ -2,7 +2,7 @@
 layout: post
 title: 【Python】爬虫笔记-从PyMySQL到DBUtils
 date: 2022-11-03
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

@@ -3,7 +3,7 @@ layout: post
 title: "【网络安全】ASP.NET ViewState反序列化漏洞学习"
 subtitle: "This is a subtitle"
 date: 2024-08-03
-author: "QTunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-1.jpg"
 tags: []
 ---

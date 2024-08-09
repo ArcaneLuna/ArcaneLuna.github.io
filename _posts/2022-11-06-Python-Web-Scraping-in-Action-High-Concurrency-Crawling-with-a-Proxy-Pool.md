@@ -3,7 +3,7 @@ layout: post
 title: 【Python】爬虫实战-基于代理池的高并发爬虫
 subtitle: 手动切换策略
 date: 2022-11-06
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

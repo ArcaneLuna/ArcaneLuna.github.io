@@ -2,7 +2,7 @@
 layout: post
 title: 【Python】爬虫笔记-ConnectionResetError(10054)
 date: 2022-11-01
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

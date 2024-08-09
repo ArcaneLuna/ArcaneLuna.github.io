@@ -4,7 +4,7 @@ layout: post
 title: 【JS】Primitive Type是值类型吗？存储在栈上吗？
 subtitle: 应用层语言不能按照系统编程语言理解
 date: 2022-10-01
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

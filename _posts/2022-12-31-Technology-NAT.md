@@ -2,7 +2,7 @@
 layout: post
 title: NAT
 date: 2022-12-31
-author: "qtunneling"
+author: "3thernet"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 
