@@ -1,4 +1,4 @@
-qtunneling Blog
+3thernet Blog
 ================================
 
 My blog powered by jekyll with Hux theme.
