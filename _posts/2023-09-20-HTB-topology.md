@@ -3,7 +3,7 @@ layout: post
 title: "【HTB】topology writeup"
 subtitle: "并不常见的命令注入"
 date: 2023-09-20
-author: "H4kur31"
+author: "qtunneling"
 header-img: "img/bg-touhou-1.jpg"
 tags:
 

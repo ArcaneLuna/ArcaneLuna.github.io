@@ -3,7 +3,7 @@ layout: post
 title: 【Python】爬虫笔记-requests.exceptions.ProxyError
 subtitle: 代理服务器是否支持HTTPS代理
 date: 2022-11-02
-author: "H4kur31"
+author: "qtunneling"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

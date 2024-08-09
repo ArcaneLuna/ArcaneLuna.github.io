@@ -3,7 +3,7 @@ layout: post
 title: "计算机体系结构实习Lab1.1"
 subtitle: "处理器性能评测"
 date: 2023-10-05
-author: "H4kur31"
+author: "qtunneling"
 header-img: "img/bg-touhou-3.jpg"
 tags: 
 

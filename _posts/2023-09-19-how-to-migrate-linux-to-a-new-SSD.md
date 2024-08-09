@@ -2,7 +2,7 @@
 layout: post
 title: "Linux系统迁移"
 date: 2023-09-19
-author: "H4kur31"
+author: "qtunneling"
 header-img: "img/bg-touhou-7.jpg"
 tags:
 

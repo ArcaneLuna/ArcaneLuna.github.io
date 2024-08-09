@@ -2,7 +2,7 @@
 layout: post
 title: 【Python】爬虫笔记-多线程&线程池
 date: 2022-11-04
-author: "H4kur31"
+author: "qtunneling"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

@@ -1,11 +1,11 @@
 # Site settings
-title: H4kur31 Blog
-SEOTitle: H4kur31的博客 | H4kur31 Blog
+title: qtunneling Blog
+SEOTitle: qtunneling的博客 | qtunneling Blog
 header-img: img/home-bg.jpg
-email: H4kur31@proton.me
-description: "这里是 H4kur31 的博客，分享个人编程学习经历 | 仿生巫女会退治电子妖精吗"
-keyword: "H4kur31, H4kur31的博客, 博丽灵梦, 个人网站, 计算机, Web, CTF, Python, c++, JavaScript, 网络安全, 体系结构, 东方Project, Touhou"
-url: "https://h4kur31.com" # your host, for absolute URL
+email: qtunneling@proton.me
+description: "这里是 qtunneling 的博客，分享个人编程学习经历 | 仿生巫女会退治电子妖精吗"
+keyword: "qtunneling, qtunneling的博客, 个人网站, 计算机, Web, CTF, Python, c++, JavaScript, 网络安全, 体系结构, 东方Project, Touhou"
+url: "https://qtunneling.com" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -15,7 +15,7 @@ future: true
 RSS: false
 #weibo_username: huxpro
 #zhihu_username: huxpro
-github_username: H4kur31
+github_username: qtunneling
 #twitter_username: huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx

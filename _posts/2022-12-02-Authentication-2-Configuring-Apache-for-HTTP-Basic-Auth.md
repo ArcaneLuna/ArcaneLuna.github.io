@@ -3,7 +3,7 @@
 layout: post
 title: 【认证机制】2-Apache配置HTTP Basic Auth
 date: 2022-12-02
-author: "H4kur31"
+author: "qtunneling"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

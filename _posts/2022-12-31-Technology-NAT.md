@@ -2,7 +2,7 @@
 layout: post
 title: NAT
 date: 2022-12-31
-author: "H4kur31"
+author: "qtunneling"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 

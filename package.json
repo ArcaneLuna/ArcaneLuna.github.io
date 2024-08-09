@@ -1,14 +1,14 @@
 {
-    "name": "H4kur31-blog",
-    "title": "H4kur31 Blog",
-    "author": "H4kur31 <H4kur31@proton.me>",
+    "name": "qtunneling-blog",
+    "title": "qtunneling Blog",
+    "author": "qtunneling <qtunneling@proton.me>",
     "version": "1.8.2",
-    "homepage": "http://H4kur31.github.io",
+    "homepage": "http://qtunneling.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/H4kur31/H4kur31.github.io"
+        "url": "https://github.com/qtunneling/qtunneling.github.io"
     },
-    "bugs": "https://github.com/H4kur31/H4kur31.github.io/issues",
+    "bugs": "https://github.com/qtunneling/qtunneling.github.io/issues",
     "devDependencies": {
         "grunt": ">=1.3.0",
         "grunt-banner": "~0.2.3",

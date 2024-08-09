@@ -3,7 +3,7 @@
 layout: post
 title: 【JS】Pug调用自定义函数
 date: 2022-10-04
-author: "H4kur31"
+author: "qtunneling"
 header-img: "img/bg-touhou-7.jpg"
 tags: 
 
