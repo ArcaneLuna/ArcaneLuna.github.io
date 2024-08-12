@@ -23,7 +23,7 @@ tags: []
 
 日志如下：
 
-![](../img/2024-08-08-thinkphp32x-rce/1.png)
+![](/img/2024-08-08-thinkphp32x-rce/1.png)
 
 自行搭建靶场测试请参考：
 
@@ -46,7 +46,7 @@ public function assign_resume_tpl($variable,$tpl){
 }
 ```
 
-fetch 方法在`$tpl`不存在时会将 payload 写入 log：
+fetch 方法在`$tpl`不存在时会调用E方法将 payload 写入 log：
 
 ```php
 // 模板文件不存在直接返回
