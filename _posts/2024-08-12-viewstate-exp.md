@@ -9,15 +9,15 @@ tags: []
 
 最近连续参加的几次攻防都有见到 ViewState 反序列化漏洞 getshell 的身影，算是红队基本功，简单做下笔记。
 
+实验环境：
+
+- [3thernet/viewstate-deserialization-lab (github.com)](https://github.com/3thernet/viewstate-deserialization-lab)
+
 相关工具：
 
 1. [ysoserial](https://github.com/pwntester/ysoserial.net)
 
 2. [Blacklist3r](https://github.com/NotSoSecure/Blacklist3r)
-
-环境：.NET Framework 4.8.9256.0
-
-- 注意在网站调试信息中产生的`版本信息: Microsoft .NET Framework 版本:4.0.30319; ASP.NET 版本:4.8.9232.0`实际上表示的是运行时版本CLR为 4.0.30319，ASP.NET 组件版本 4.8.9256.0
 
 查看.NET Framework版本：
 
@@ -35,7 +35,9 @@ class Program
 }
 ```
 
-参考：[确定已安装的 .NET Framework 版本 - .NET Framework | Microsoft Learn](https://learn.microsoft.com/zh-cn/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)
+注意在网站调试信息中产生的`版本信息: Microsoft .NET Framework 版本:4.0.30319; ASP.NET 版本:4.8.9232.0`实际上表示的是运行时版本CLR为 4.0.30319，ASP.NET 组件版本 4.8.9256.0
+
+参考：[确定已安装的 .NET Framework 版本 - .NET Framework  (Microsoft Learn)](https://learn.microsoft.com/zh-cn/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)
 
 ## 0x01 概述
 
@@ -184,7 +186,7 @@ ASP.NET 常见的签名算法为 HMACSha256（也可能是SHA1），计算出的
 
 ### 2.4 Webshell
 
-参考：[玩轉 ASP.NET VIEWSTATE 反序列化攻擊、建立無檔案後門 | DEVCORE 戴夫寇爾](https://devco.re/blog/2020/03/11/play-with-dotnet-viewstate-exploit-and-create-fileless-webshell/)
+参考：[玩轉 ASP.NET VIEWSTATE 反序列化攻擊、建立無檔案後門 (DEVCORE 戴夫寇爾)](https://devco.re/blog/2020/03/11/play-with-dotnet-viewstate-exploit-and-create-fileless-webshell/)
 
 首先需要 DisableTypeCheck：
 
@@ -249,7 +251,9 @@ class E
 
 ![](/img/2024-08-12-viewstate-exp/5.png)
 
-类似的还可以写哥斯拉内存马：[.Net ViewState反序列化实现无文件哥斯拉内存马 – Whwlsfb's Tech Blog (wanghw.cn)](https://blog.wanghw.cn/security/dotnet-viewstate-no-file-godzilla-memshell.html)
+类似的还可以写哥斯拉内存马：
+
+- [.Net ViewState反序列化实现无文件哥斯拉内存马 – Whwlsfb's Tech Blog (wanghw.cn)](https://blog.wanghw.cn/security/dotnet-viewstate-no-file-godzilla-memshell.html)
 
 ### 0x03 其他
 
