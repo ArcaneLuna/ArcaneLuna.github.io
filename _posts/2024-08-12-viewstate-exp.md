@@ -66,6 +66,8 @@ decryption="AES" />
    - ysoserial 工具只需要知道 validation 算法，validationkey 来生成 ViewState 的 payload
    
    - 即使`ViewStateEncryptionMode`已设置为`Always`，如果ASP.NET<4.5.2 则仅检查请求中是否存在`__VIEWSTATEENCRYPTED`参数，如果删除此参数并发送未加密的有效负载，ViewState 仍将被处理（这是一个BUG）
+   
+   - 未加密的 ViewState 开头都是`/w`，很容易看出来
 
 3. ASP.NET>=4.5，开启MAC验证
    
