@@ -20,19 +20,19 @@ tags: []
 
 ### TscanPlus
 
-https://github.com/TideSec/TscanPlus
+[TideSec/TscanPlus](https://github.com/TideSec/TscanPlus)
 
 集成化GUI工具，好用，但是闭源
 
 ### ShuiZe
 
-https://github.com/0x727/ShuiZe_0x727
+[0x727/ShuiZe_0x727](https://github.com/0x727/ShuiZe_0x727)
 
 较全面的信息收集，最好用docker部署，好用
 
 ### Oneforall
 
-https://github.com/shmilylty/OneForAll
+[shmilylty/OneForAll](https://github.com/shmilylty/OneForAll)
 
 用的时候有未知bug，总爆内存
 
@@ -44,7 +44,7 @@ https://xray.chaitin.cn/
 
 ### dddd
 
-https://github.com/SleepingBag945/dddd
+[SleepingBag945/dddd](https://github.com/SleepingBag945/dddd)
 
 支持hunter、fofa api，适合DIY配置指纹和POC
 
@@ -144,13 +144,13 @@ site:target.com intitle:账号 | 密码 | 工号 | 学号 | 身份证
 
 ### kscan
 
-https://github.com/lcvvvv/kscan
+[lcvvvv/kscan](https://github.com/lcvvvv/kscan)
 
 比较精巧，用来主动识别应用层指纹尚可。指纹库很久没更新，不一定有空间测绘引擎识别的精准。
 
 ### Ehole
 
-https://github.com/EdgeSecurityTeam/EHole
+[EdgeSecurityTeam/EHole](https://github.com/EdgeSecurityTeam/EHole)
 
 同上，指纹库去年还有更新。
 
@@ -160,13 +160,23 @@ https://github.com/EdgeSecurityTeam/EHole
 
 ### 字典
 
-[gh0stkey/Web-Fuzzing-Box: Web Fuzzing Box - Web 模糊测试字典与一些Payloads (github.com)](https://github.com/gh0stkey/Web-Fuzzing-Box/tree/main) 综合字典，2k+stars且近期还有更新
+[gh0stkey/Web-Fuzzing-Box: Web Fuzzing Box - Web 模糊测试字典与一些Payloads](https://github.com/gh0stkey/Web-Fuzzing-Box/tree/main) 综合字典，2k+stars且近期还有更新
 
 其他字典集合：[wsecz/dict-hub: 红队字典：默认凭证、弱用户名、弱口令、弱Web路径 (github.com)](https://github.com/wsecz/dict-hub)
 
 ## 0x04 漏洞利用
 
-**POC:** [wy876/POC: 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，长期更新。 (github.com)](https://github.com/wy876/POC)
+**ReverseShell:**
+
+- [My Pentest Tools (tex2e.github.io)](https://tex2e.github.io/reverse-shell-generator/index.html)
+
+- [sameera-madushan/Print-My-Shell](https://github.com/sameera-madushan/Print-My-Shell)
+
+- [Online - Reverse Shell Generator (revshells.com)](https://www.revshells.com/)
+
+- [反弹shell命令在线生成器|🔰雨苁🔰 (ddosi.org)](https://www.ddosi.org/shell/)
+
+**POC:** [wy876/POC: 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，长期更新](https://github.com/wy876/POC)
 
 **Webshell**: 菜刀，冰蝎，哥斯拉，metasploit
 
@@ -184,7 +194,7 @@ https://github.com/EdgeSecurityTeam/EHole
 
 2024较新，v4.7.8，需要登录后台
 
-https://github.com/charonlight/RuoYiExploitGUI
+[https://github.com/charonlight/RuoYiExploitGUI](https://github.com/charonlight/RuoYiExploitGUI)
 
 [若依4.7.8版本计划任务rce复现_若依计划任务rce-CSDN博客](https://blog.csdn.net/qq_45813980/article/details/139775272)
 
