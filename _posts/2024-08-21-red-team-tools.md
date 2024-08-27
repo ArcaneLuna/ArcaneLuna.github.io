@@ -214,7 +214,7 @@ https://github.com/charonlight/RuoYiExploitGUI
 
 [fullhunt/log4j-scan: A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-2021-44228 (github.com)](https://github.com/fullhunt/log4j-scan)
 
-经典CVE-2021-4104
+经典CVE-2021-4104，建议使用`--dns-callback-provider dnslog.cn`选项避免回调错误
 
 ### 4.7 FineReport
 
