@@ -264,10 +264,12 @@ class E
 开启 MAC 验证后必须知道 Machinekey 才能打，一般是通过任意文件读取或者XXE漏洞获得，也可以使用 Blacklist3r 工具爆破：
 
 ```powershell
-.\ASPNetWrapper.exe
+.\AspDotNetWrapper.exe
 --keypath MachineKeys.txt
 --encrypteddata={__VIEWSTATE}
 --modifier={__VIEWSTATEGENERATOR}
+--purpose=viewstate
+--macdecode
 ```
 
 ysoserial 工具的几个 gadget 利用原理还需要继续学习。
