@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "【网络安全】Android Security"
-subtitle: "This is a subtitle"
 date: 2025-02-19
 author: "3thernet"
 header-img: "img/city-1.jpg"
